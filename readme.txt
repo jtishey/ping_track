@@ -7,9 +7,7 @@ to the host specified in the command argument.  Note that
 it must be run as root because it is a requirement of pyping
 for ICMP.  You can use UDP pings without root privelages by
 specifying 'udp=True' after the host in the pyping.ping() call.
- 
+If run without the pyping lib installed, it will try an os call
+to the ping command instead.  This does not requre root privileges.
+
 H = pyping.ping(host, udp=True)
-
-
-
-
