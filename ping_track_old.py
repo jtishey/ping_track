@@ -1,4 +1,4 @@
-#usr/bin/env python
+#!/usr/bin/env python
 '''
 ping_track_old.py
 ping_track.py modified for python 2.6 compatibility

@@ -1,4 +1,4 @@
-#usr/bin/env python
+#!/usr/bin/env python
 '''
 ping_track.py
  Requires root privileges when using pyping library.
