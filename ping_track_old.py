@@ -45,7 +45,7 @@ def run_ping_check(state):
             time_log()             # grab a timestamp and print message.
             print(str(ts) + " : " + str(host) + " is now down. (" + str(td) + ")")
             state = "DOWN"
-    elif str(result)[25] == "1":   # If response recieved    # If the ping RESPONDS
+    elif str(result)[25] == "1":   # If response recieved
         if state == "DOWN":        # and host was previously DOWN
             time_log()             # grab a timestamp and print message.
             print(str(ts) + " : " + str(host) + " is now up. (" + str(td) + ")")
